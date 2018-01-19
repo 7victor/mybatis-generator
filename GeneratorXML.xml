@@ -51,15 +51,6 @@
 		<table tableName="stock"></table>
 		<table tableName="stock_goods"></table>
 		<table tableName="menu"></table>
-		<!-- <table tableName="BBSSection"></table>
-		<table tableName="BBSTopic"></table>
-		<table tableName="BBSReply"></table>
-		<table tableName="BBSNews"></table>
-		<table tableName="BBSFriend"></table>
-		<table tableName="BBSIMPEACH"></table> -->
-		<!-- <table schema="" tableName="sys_user"></table> <table schema="" tableName="sys_role"></table> 
-			<table schema="" tableName="sys_permission"></table> <table schema="" tableName="sys_user_role"></table> 
-			<table schema="" tableName="sys_role_permission"></table> -->
 		<!-- 有些表的字段需要指定java类型 <table schema="" tableName=""> <columnOverride column="" 
 			javaType="" /> </table> -->
 	</context>
