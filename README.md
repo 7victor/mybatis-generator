@@ -85,6 +85,7 @@ JDBC连接设置
 
 jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://localhost:3306/inventory?characterEncoding=utf8" 
 		userId="root" password="root"> </jdbcConnection>
+
 各种生成包的路径设置  主要修改targetPackage="位置"
 	<javaModelGenerator targetPackage="com.ssm.po"
 		targetProject=".\src">
@@ -103,12 +104,15 @@ jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://l
 		<!-- enableSubPackages:是否让schema作为包的后缀 -->
 		<property name="enableSubPackages" value="false" />
 	</javaClientGenerator>
+	
 需要生成的表的设置
 
 <table tableName="表名1"></table>
 <table tableName="表名2"></table>
 <table tableName="表名3"></table>
+
 可以写多个表一同生成
+
 最后写Test.java
 public class test {
 
